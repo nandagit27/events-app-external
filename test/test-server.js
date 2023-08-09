@@ -6,7 +6,7 @@ const app = require('../server');
 describe('GET /', function () {
   it('responds with home page', function (done) {
 
-    //specify the url to be intercepted
+    //specify the url to be intercepted - branch collab test
     nock("http://localhost:8082")
       //define the method to be intercepted
       .get('/events')
