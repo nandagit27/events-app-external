@@ -4,9 +4,9 @@ const request = require('supertest');
 const app = require('../server');
 
 describe('GET /', function () {
-  it('responds with home page', function (done) {
+ it('responds with home page', function (done) {
 
-    //specify the url to be intercepted
+    //specify the url to be intercepted - test
     nock("http://localhost:8082")
       //define the method to be intercepted
       .get('/events')
